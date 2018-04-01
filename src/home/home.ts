@@ -22,7 +22,7 @@ export class Home {
   appTileArray: AppTile[] = [
     { title: 'Resume', subtitle: ".PDF..." },
     { title: 'Bio', subtitle: "My Story..." },
-    { title: 'Skills', subtitle: "Interests, etc..." },
+    { title: 'Skills', subtitle: "Projects, etc..." },
     { title: 'Experience', subtitle: "Jobs..." },
     { title: 'Contact', subtitle: "Email, etc..." },
   ];
