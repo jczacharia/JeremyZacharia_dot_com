@@ -1,40 +1,79 @@
 <style type="text/css">
-    p {
-        color: #fff;
-    }
+  p {
+    color: #fff;
+  }
 
-    h3 {
-        color: #F39C12;
-    }
+  h3 {
+    color: #f39c12;
+  }
 
-    a {
-        color: cyan;
-    }
+  h4 {
+    color: #f39c12;
+  }
 
-    @media only screen and (max-width: 768px) {
-        .profimg {
-            display: block;
-            margin: 0 auto;
-            padding: 20px;
-            border-radius: 50%;
-        }
-    }
+  a {
+    color: cyan;
+  }
 
-    @media only screen and (min-width: 768px) {
-        .profimg {
-            float: left;
-            padding: 20px;
-            border-radius: 50%;
-        }
+  .bio-desc {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    justify-items: stretch;
+    align-items: stretch;
+    line-height: 25px;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .profimg {
+      display: block;
+      margin: 0 auto;
+      padding: 20px;
+      border-radius: 50%;
     }
+  }
+
+  @media only screen and (min-width: 768px) {
+    .profimg {
+      float: left;
+      padding: 20px;
+      border-radius: 50%;
+    }
+  }
 </style>
 <div style="display: inline; word-wrap: break-word;">
-    <img width="200px" src="assets/images/jcz-profile.png" class="profimg" />
-    <h3>Bio</h3>
-    <p>Born on October 6, 1995 in Pittsburgh, Pennsylvania. </p>
-    <p>Currently {{this.age}} years old.</p>
-    <p>Has lived in Mckeesport, PA and Venetia, PA.</p>
-    <p>Currently lives in Pittsburgh, PA.</p>
-    <p>Attended high school at Peters Township, McMurray, PA.</p>
-    <p>Has acquired a Bachelor's degree in Electrical Engineering from Penn State (May 2018).</p>
+  <img width="200px" src="assets/images/jcz-profile.png" class="profimg" />
+  <h3>Bio</h3>
+  <p>Born on October 6, 1995 in Pittsburgh, Pennsylvania.</p>
+  <p>Currently {{ this.age }} years old.</p>
+  <p>Has lived in Mckeesport, PA & Venetia, PA & Erie, PA</p>
+  <p>Currently lives in Pittsburgh, PA.</p>
+  <p>Attended high school at Peters Township, McMurray, PA.</p>
+  <p>
+    Has acquired a Bachelor's degree in Electrical Engineering from Penn State
+    (May 2018).
+  </p>
+  <div class="bio-desc">
+    <span></span>
+    <div>
+      <p>
+        Hello! My name is Jeremy Zacharia. First, and above all, I consider
+        myself a creator. I first discovered my interest for creating when I
+        asked my father how people develop cartoon animations, video games,
+        websites, and other technological ways of creating. He told me to look
+        into C++. This sparked my interest in computers, both hardware and
+        software. My childhood dream was to have the capacity to create my own
+        electronic projects from start to finish; an application that solves an
+        engineering or business problem; prototyping the system on a
+        bread-board, incrementally develop the embedded software for it and
+        eventually designing hardware schematics and PCB component placement.
+        Then, develop a website to visualize the data gathered from hardware
+        sensors and seeing the project come to life! From this full-stack
+        development inclination, I sought out a career in Electrical and
+        Software Engineering. Check out the rest of my website to see my skills,
+        interests, and experience that I have gained over my life. Thanks for
+        visiting!
+      </p>
+    </div>
+    <span></span>
+  </div>
 </div>
